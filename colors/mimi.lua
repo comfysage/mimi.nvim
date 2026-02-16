@@ -4,27 +4,27 @@
 
 -- palette ====================================================================
 local palette = {
-	bg_edge2 = "#120D08",
-	bg_edge = "#1C1207",
-	bg = "#1C1712",
-	bg_mid = "#33200D",
-	bg_mid2 = "#4D4035",
-	fg_edge2 = "#F8ECE1",
-	fg_edge = "#EACFB7",
-	fg = "#F0DBC7",
-	fg_mid = "#B6987D",
-	fg_mid2 = "#8F735B",
+  bg_edge2 = "#120D08",
+  bg_edge = "#1C1207",
+  bg = "#1C1712",
+  bg_mid = "#33200D",
+  bg_mid2 = "#4D4035",
+  fg_edge2 = "#F8ECE1",
+  fg_edge = "#EACFB7",
+  fg = "#F0DBC7",
+  fg_mid = "#B6987D",
+  fg_mid2 = "#8F735B",
 
-	accent = "#AD496C",
+  accent = "#AD496C",
 
-	red = "#AF4C58",
-	orange = "#B87058",
-	yellow = "#CFA06B",
-	green = "#A6C99F",
-	cyan = "#A1CFB7",
-	azure = "#95C2BC",
-	blue = "#A4B7C9",
-	purple = "#CE8C98",
+  red = "#AF4C58",
+  orange = "#B87058",
+  yellow = "#CFA06B",
+  green = "#A6C99F",
+  cyan = "#A1CFB7",
+  azure = "#95C2BC",
+  blue = "#A4B7C9",
+  purple = "#CE8C98",
 }
 
 require("mini.hues").apply_palette(palette)
