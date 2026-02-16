@@ -10,28 +10,28 @@ local palette = {
 	bg_mid = "#33200D",
 	bg_mid2 = "#4D4035",
 	fg_edge2 = "#F8ECE1",
-	fg_edge = "#F0DBC7",
-	fg = "#EACFB7",
+	fg_edge = "#EACFB7",
+	fg = "#F0DBC7",
 	fg_mid = "#B6987D",
-	fg_mid2 = "#8C6F53",
+	fg_mid2 = "#8F735B",
 
-	accent = "#AF4C58",
+	accent = "#AD496C",
 
 	red = "#AF4C58",
 	orange = "#B87058",
-	yellow = "#C29665",
+	yellow = "#CFA06B",
 	green = "#A6C99F",
 	cyan = "#A1CFB7",
 	azure = "#95C2BC",
 	blue = "#A4B7C9",
-	purple = "#C4A0BA",
+	purple = "#CE8C98",
 }
 
 require("mini.hues").apply_palette(palette)
 
 -- syntax =====================================================================
 vim.api.nvim_set_hl(0, "String", { fg = palette.yellow })
-vim.api.nvim_set_hl(0, "Identifier", { fg = palette.fg })
+vim.api.nvim_set_hl(0, "Identifier", { fg = palette.fg_edge })
 vim.api.nvim_set_hl(0, "Statement", { fg = palette.fg_mid })
 vim.api.nvim_set_hl(0, "Delimiter", { fg = palette.fg_mid2 })
 vim.api.nvim_set_hl(0, "Operator", { fg = palette.fg_mid2 })
