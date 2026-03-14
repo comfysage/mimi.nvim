@@ -2,7 +2,9 @@
   <h2>mimi</h2>
 </div>
 
-amazing warm & fuzzy colorscheme inspired by [@koibtw][] 's cat.
+amazing warm & fuzzy colorschemes.
+
+mimi was inspired by [@koibtw][] 's cat.
 
 <div align="center">
   <img
