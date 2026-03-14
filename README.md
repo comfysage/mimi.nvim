@@ -13,10 +13,10 @@ amazing warm & fuzzy colorscheme inspired by [@koibtw][] 's cat.
 
 requires:
 
-- [mini.hues]
+- [evergarden]; uses its modules as a colorscheme framework
 
 [@koibtw]: https://koi.rip
-[mini.hues]: https://github.com/nvim-mini/mini.hues
+[evergarden]: https://codeberg.org/evergarden/nvim
 
 <div align="center">
   <img
