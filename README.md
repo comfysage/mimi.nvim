@@ -4,12 +4,12 @@
 
 amazing warm & fuzzy colorschemes.
 
-mimi was inspired by [@koibtw][] 's cat.
+mimi was inspired by [june][]'s cat.
 
 <div align="center">
   <img
-    src="./img/preview.png"
-    alt="preview img">
+    src="./img/amity.png"
+    alt="preview of the amity colorscheme">
   </img>
 </div>
 
@@ -17,7 +17,7 @@ requires:
 
 - [evergarden]; uses its modules as a colorscheme framework
 
-[@koibtw]: https://koi.rip
+[june]: https://koi.rip
 [evergarden]: https://codeberg.org/evergarden/nvim
 
 <div align="center">
