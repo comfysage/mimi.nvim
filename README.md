@@ -8,7 +8,7 @@ mimi was inspired by [june][]'s cat.
 
 <div align="center">
   <img
-    src="./img/amity.png"
+    src="https://git.robinwobin.dev/robin/plugins/mimi.nvim/plain/img/amity.png"
     alt="preview of the amity colorscheme">
   </img>
 </div>
