@@ -7,20 +7,20 @@ config.editor.transparent_background = false
 
 -- palette ====================================================================
 local palette = {
-  text = "#F8E1E2",
-  subtext1 = "#F0C7C9",
-  subtext0 = "#DE9DA0",
-  overlay2 = "#BA808F",
-  overlay1 = "#A97789",
-  overlay0 = "#7A4E61",
-  surface2 = "#57414F",
+  text = "#F2E1E2",
+  subtext1 = "#F0C7CD",
+  subtext0 = "#E8B8C5",
+  overlay2 = "#CC8C9D",
+  overlay1 = "#886F81",
+  overlay0 = "#6C586D",
+  surface2 = "#5A4A5C",
   surface1 = "#302733",
-  surface0 = "#2A262E",
+  surface0 = "#262029",
   base = "#19171D",
   mantle = "#141218",
   crust = "#0F0D12",
 
-  accent = "#fedadc",
+  accent = "#FEBDD4",
 
   red = "#D2717F",
   orange = "#E9AB8C",
@@ -41,7 +41,7 @@ local theme = vim.deepcopy(palette, true)
 theme.none = "NONE"
 theme.colors = palette
 theme.sign = theme.none
-theme.comment = theme.overlay2
+theme.comment = theme.overlay1
 theme.editor = {
   search = theme.accent,
   incsearch = theme.accent,
@@ -50,8 +50,8 @@ theme.editor = {
 }
 theme.syntax = {
   keyword = theme.overlay2,
-  identifier = theme.subtext1,
-  property = theme.subtext0,
+  identifier = theme.text,
+  property = theme.subtext1,
   type = theme.aqua,
   context = theme.overlay1,
   operator = theme.overlay1,
