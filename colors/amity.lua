@@ -32,8 +32,8 @@ local palette = {
   snow = "#BFE4DF",
   blue = "#86ADCC",
   purple = "#C7B8E1",
-  pink = "#F6C0D0",
-  cherry = "#F5E1EA",
+  pink = "#F7BAE2",
+  cherry = "#FAD9ED",
 }
 
 local theme = vim.deepcopy(palette, true)
@@ -55,7 +55,7 @@ theme.syntax = {
   type = theme.aqua,
   context = theme.overlay1,
   operator = theme.overlay1,
-  constant = theme.purple,
+  constant = theme.pink,
   func = theme.purple,
   string = theme.snow,
   macro = theme.skye,
